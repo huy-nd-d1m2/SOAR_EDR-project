@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1" pages="2">
+  <diagram name="Page-1" id="TKkoxB7T4S0t5WWGFStq">
+    <mxGraphModel dx="2076" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TKcQurW4sPElQW-fBR2f-5" value="SOAR EDR&lt;div&gt;Playbook&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#60A917,#688968);fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-9" target="TKcQurW4sPElQW-fBR2f-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-26" value="Message(Alert)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-16">
+          <mxGeometry x="-0.1143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-9" target="TKcQurW4sPElQW-fBR2f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-25" value="Message(Alert)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-17">
+          <mxGeometry x="0.0512" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-9" target="TKcQurW4sPElQW-fBR2f-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-28" value="Does user want to isolate the machine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-27">
+          <mxGeometry x="-0.1673" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-9" value="Tines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#E5CCFF);fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-10" target="TKcQurW4sPElQW-fBR2f-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-270" y="350" />
+              <mxPoint x="-270" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-41" value="Isolate Machine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-39">
+          <mxGeometry x="-0.0034" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-10" target="TKcQurW4sPElQW-fBR2f-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="69.99999999999989" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="280" />
+              <mxPoint x="40" y="280" />
+              <mxPoint x="40" y="160" />
+              <mxPoint x="530" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-43" value="Isolation status &quot;The computer&quot; is isolated" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-42">
+          <mxGeometry x="0.2058" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-10" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;LimaCharlie&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#66B2FF);" vertex="1" parent="1">
+          <mxGeometry x="-240" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-11" value="Slack" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#6600CC);fontColor=light-dark(#000000,#000000);" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-12" target="TKcQurW4sPElQW-fBR2f-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-12" target="TKcQurW4sPElQW-fBR2f-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-12" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;User prompt&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-13" value="Email" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#FF0000);fontColor=light-dark(#000000,#000000);strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-10" target="TKcQurW4sPElQW-fBR2f-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="360" as="sourcePoint" />
+            <mxPoint y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-15" value="Detection(Alert)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-14">
+          <mxGeometry x="-0.0923" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-18" target="TKcQurW4sPElQW-fBR2f-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-45" value="Dectect hacktool" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-44">
+          <mxGeometry x="-0.0186" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=light-dark(#505050,#FF3333);labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="70" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-24" value="Infected" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-29" target="TKcQurW4sPElQW-fBR2f-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-37" value="Isolate the machine" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-36">
+          <mxGeometry x="0.0784" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-29" value="YES" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKcQurW4sPElQW-fBR2f-30" target="TKcQurW4sPElQW-fBR2f-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-35" value="The machine was not isolated" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TKcQurW4sPElQW-fBR2f-34">
+          <mxGeometry x="0.1266" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKcQurW4sPElQW-fBR2f-30" value="NO" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fBYwwI8t4Y6BfzImswDe" name="Page-2">
+    <mxGraphModel dx="1281" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

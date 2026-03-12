@@ -1,0 +1,49 @@
+{
+  "event": {
+    "BASE_ADDRESS": 140700742582272,
+    "COMMAND_LINE": "\"C:\\Users\\Huy\\Downloads\\LaZagne.exe\"",
+    "FILE_IS_SIGNED": 0,
+    "FILE_PATH": "C:\\Users\\Huy\\Downloads\\LaZagne.exe",
+    "HASH": "dc06d62ee95062e714f2566c95b8edaabfd387023b1bf98a09078b84007d5268",
+    "MEMORY_USAGE": 4878336,
+    "PARENT": {
+      "BASE_ADDRESS": 140701090250752,
+      "COMMAND_LINE": "\"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\" ",
+      "FILE_IS_SIGNED": 1,
+      "FILE_PATH": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "HASH": "9785001b0dcf755eddb8af294a373c0b87b2498660f724e76c4d53f9c217c7a3",
+      "MEMORY_USAGE": 42467328,
+      "PARENT_ATOM": "d62f81796ab16563a83e427469b2751e",
+      "PARENT_PROCESS_ID": 60,
+      "PROCESS_ID": 6420,
+      "THIS_ATOM": "44724495798879905dadbcb169b2a6c9",
+      "THREADS": 17,
+      "TIMESTAMP": 1773315784108,
+      "USER_NAME": "DESKTOP-7VV2JBB\\Huy"
+    },
+    "PARENT_PROCESS_ID": 6420,
+    "PROCESS_ID": 4804,
+    "THREADS": 3,
+    "USER_NAME": "DESKTOP-7VV2JBB\\Huy"
+  },
+  "routing": {
+    "arch": 2,
+    "did": "",
+    "event_id": "1fbdff02-1866-466a-85ed-852f1cd9090e",
+    "event_time": 1773315838925,
+    "event_type": "NEW_PROCESS",
+    "ext_ip": "183.80.67.186",
+    "hostname": "desktop-7vv2jbb.localdomain",
+    "iid": "217543c2-3f0a-468c-b55f-52da4feef0ad",
+    "int_ip": "192.168.139.135",
+    "latency": 1670,
+    "moduleid": 2,
+    "oid": "20a5efe1-fa67-4132-b3f7-298a96f8984b",
+    "parent": "44724495798879905dadbcb169b2a6c9",
+    "plat": 268435456,
+    "sid": "af2c0964-9f71-40e5-97e1-c7fe1bb8115d",
+    "tags": [],
+    "this": "686facdd13ae95d8b55357dc69b2a6ff"
+  },
+  "ts": "2026-03-12 11:43:58"
+}
